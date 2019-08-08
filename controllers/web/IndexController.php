@@ -21,7 +21,7 @@ class IndexController extends Controller
             return $this->render('index', ['admin' => $admin]);
         }
     }
-//
+
     public function actionAdmin()
     {
         return $this->render('admin');
